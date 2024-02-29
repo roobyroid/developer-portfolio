@@ -93,29 +93,29 @@ const NavBar = () => {
 				</nav>
 				<nav className="flex items-center justify-center flex-wrap">
 					<FramerMagnetic>
-						<a href="https://github.com/roobyroid">
+						<Link href="https://github.com/roobyroid">
 							<GithubIcon />
-						</a>
+						</Link>
 					</FramerMagnetic>
 					<FramerMagnetic>
-						<a href="/">
+						<Link href="/">
 							<TwitterIcon />
-						</a>
+						</Link>
 					</FramerMagnetic>
 					<FramerMagnetic>
-						<a href="/">
+						<Link href="/">
 							<LinkedInIcon />
-						</a>
+						</Link>
 					</FramerMagnetic>
 					<FramerMagnetic>
-						<a href="/">
+						<Link href="/">
 							<PinterestIcon />
-						</a>
+						</Link>
 					</FramerMagnetic>
 					<FramerMagnetic>
-						<a href="/">
+						<Link href="/">
 							<DribbbleIcon />
-						</a>
+						</Link>
 					</FramerMagnetic>
 
 					<button

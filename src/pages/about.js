@@ -30,7 +30,7 @@ const AnimatedNumbers = ({ value }) => {
 				ref.current.textContent = latest.toFixed(0);
 			}
 		});
-	}, [springValue, motionValue]);
+	}, [springValue, value, motionValue]);
 
 	return <span ref={ref}></span>;
 };
@@ -55,25 +55,28 @@ const about = () => {
 								Biography
 							</h2>
 							<p className="my-4 font-medium">
-								Hi, I'm CodeBucks, a web developer and UI/UX designer with a
-								passion for creating beautiful, functional, and user-centered
-								digital experiences. With 4 years of experience in the field. I
-								am always looking for new and innovative ways to bring my
-								clients' visions to life.
+								Hi, I&rsquo;m CodeBucks, a&nbsp;web developer and UI/UX designer
+								with a passion for creating beautiful, functional, and
+								user-centered digital experiences. With 4&nbsp;years
+								of&nbsp;experience in&nbsp;the field. I am&nbsp;always looking
+								for new and innovative ways to&nbsp;bring my clients&rsquo;
+								visions to&nbsp;life.
 							</p>
 
 							<p className="my-4 font-medium">
-								I believe that design is about more than just making things look
-								pretty – it's about solving problems and creating intuitive,
-								enjoyable experiences for users.
+								I&nbsp;believe that design is&nbsp;about more than just making
+								things look pretty&nbsp;&mdash; it&rsquo;s about solving
+								problems and creating intuitive, enjoyable experiences for
+								users.
 							</p>
 
 							<p className="my-4 font-medium">
-								Whether I'm working on a website, mobile app, or other digital
-								product, I bring my commitment to design excellence and
-								user-centered thinking to every project I work on. I look
-								forward to the opportunity to bring my skills and passion to
-								your next project.
+								Whether I&rsquo;m working on&nbsp;a&nbsp;website, mobile app,
+								or&nbsp;other digital product, I&nbsp;bring my&nbsp;commitment
+								to&nbsp;design excellence and user-centered thinking
+								to&nbsp;every project&nbsp;I work&nbsp;on. I&nbsp;look forward
+								to&nbsp;the opportunity to&nbsp;bring my&nbsp;skills and passion
+								to your next project.
 							</p>
 						</div>
 
